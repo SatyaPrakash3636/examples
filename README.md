@@ -1,3 +1,9 @@
+### Below codes will be converted to README.md using below command
+
+```bash
+jupyter nbconvert --ClearMetadataPreprocessor.enabled=True --ClearOutput.enabled=True --to markdown examples.ipynb
+```
+
 ```python
 import random
 
@@ -27,4 +33,3 @@ rps()
 
     computer='r', user='s'
     You Lost
-    
